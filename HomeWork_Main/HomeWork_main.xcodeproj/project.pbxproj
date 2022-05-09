@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04E12AB3282536C200EB960A /* HomeWork_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E12AB3282536C200EB960A /* HomeWork_main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork_main.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E12AB6282536C200EB960A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E12AB8282536C200EB960A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		04E12ABA282536C200EB960A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		04E12AB4282536C200EB960A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04E12AB3282536C200EB960A /* HomeWork_1.app */,
+				04E12AB3282536C200EB960A /* HomeWork_main.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04E12AB2282536C200EB960A /* HomeWork_1 */ = {
+		04E12AB2282536C200EB960A /* HomeWork_main */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E12AC7282536C400EB960A /* Build configuration list for PBXNativeTarget "HomeWork_1" */;
+			buildConfigurationList = 04E12AC7282536C400EB960A /* Build configuration list for PBXNativeTarget "HomeWork_main" */;
 			buildPhases = (
 				04E12AAF282536C200EB960A /* Sources */,
 				04E12AB0282536C200EB960A /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = HomeWork_1;
+			name = HomeWork_main;
 			productName = HomeWork_1;
-			productReference = 04E12AB3282536C200EB960A /* HomeWork_1.app */;
+			productReference = 04E12AB3282536C200EB960A /* HomeWork_main.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04E12AAE282536C200EB960A /* Build configuration list for PBXProject "HomeWork_1" */;
+			buildConfigurationList = 04E12AAE282536C200EB960A /* Build configuration list for PBXProject "HomeWork_main" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04E12AB2282536C200EB960A /* HomeWork_1 */,
+				04E12AB2282536C200EB960A /* HomeWork_main */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E12AAE282536C200EB960A /* Build configuration list for PBXProject "HomeWork_1" */ = {
+		04E12AAE282536C200EB960A /* Build configuration list for PBXProject "HomeWork_main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E12AC5282536C400EB960A /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E12AC7282536C400EB960A /* Build configuration list for PBXNativeTarget "HomeWork_1" */ = {
+		04E12AC7282536C400EB960A /* Build configuration list for PBXNativeTarget "HomeWork_main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E12AC8282536C400EB960A /* Debug */,
