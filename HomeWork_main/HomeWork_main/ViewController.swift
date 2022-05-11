@@ -35,7 +35,14 @@ class ViewController: UIViewController {
         let sumWholeTwo = 2 + 9 + 6 + 8
         let sumFractTwo = 0.5 + 0.7 + 0.9 + 0.2
         print("\(sumWholeTwo) \(sumFractTwo)")
-
+        
+//Вариант 3
+        let mass = [2.5, 9.7, 6.9, 8.2]
+        let sumMass = mass[0] + mass[1] + mass[2] + mass[3]
+        let wholeMass:Double = Double(Int(mass[0]) + Int(mass[1]) + Int(mass[2]) + Int(mass[3]))
+        let fractMass:Double = sumMass - Double(Int(wholeMass))
+        print("\(mass) \(sumMass) \(wholeMass) \(fractMass)")
+        
 
 /* Проверка, является ли число четным
         Вариант 1 */
