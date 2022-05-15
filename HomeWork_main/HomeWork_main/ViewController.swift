@@ -44,7 +44,9 @@ class ViewController: UIViewController {
         
 //      six
         
-        six.fact(4)
+        six.fact(8)
+        
+        six.fact2(8)
         
         
         
@@ -154,7 +156,7 @@ class ViewController: UIViewController {
         }
     }
 
-//  Задание 4.
+//     Задание 4.
     
     class  four{
         
@@ -179,13 +181,26 @@ class ViewController: UIViewController {
     
     class six{
 
+//    Вариант с while
+        
         static func fact(_ a: Int) {
             var fact = 1
             var i = 1
             while (i<=a){
                 fact *= i
                 i += 1
-            print("Ищу factorial ", fact)
+            print("Ищу factorial: \(fact)")
             }
         }
-    }
+        
+//    Вариант без while
+        
+        static func fact2(_ a: Int) {
+            var b = 1
+            for c in 1...a{
+                b *= c
+                print("number: \(a) factorial: \(b)")
+            }
+        }
+}
+        
