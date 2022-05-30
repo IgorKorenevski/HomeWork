@@ -151,7 +151,6 @@ class ViewController: UIViewController {
                 print(str1 + " < " + str2)
             } else {
                 print(str1 + " = " + str2)
-                
             }
         }
     }
