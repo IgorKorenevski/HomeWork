@@ -29,7 +29,7 @@ class Beer{
 class saleManagerSingltone {
     
     static let saleBeer = saleManagerSingltone ()
-    var salePriceDay: Double = 0.0
+    private var salePriceDay: Double = 0.0
     
     private init () {}
     

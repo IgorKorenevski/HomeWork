@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         view.backgroundColor = .systemYellow
         
         wB.text = ("\(saleManagerSingltone.saleBeer.contain("White Beer"))")
-        Sales.text = ("бабосики: \(saleManagerSingltone.saleBeer.salePriceDay) $$")
+
     }
 
     @IBAction func wbBut(_ sender: Any) {
