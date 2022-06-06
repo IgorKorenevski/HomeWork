@@ -44,7 +44,8 @@ class saleManagerSingltone {
             } else {
                 return 0
             }
-        }; return salePriceDay
+        }
+        return salePriceDay
     }
     
     
@@ -52,7 +53,8 @@ class saleManagerSingltone {
         if let con = warehouse.first(where: { $0.beerName == name }) {
             con.remainder -= con.contain
             return round(con.remainder * 1000) / 1000
-        }; return 0
+        }
+        return 0
     }
     
     func newDay (_ name: Double) -> Double {
