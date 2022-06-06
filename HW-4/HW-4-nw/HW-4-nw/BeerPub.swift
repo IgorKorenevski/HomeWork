@@ -33,8 +33,9 @@ class saleManagerSingltone {
     
     private init () {}
     
-    private var warehouse = [Beer(beerName: "Black Beer", strength: "4.3–5.6% об.", price: 6.0, madeIn: "Germany", remainder: 51.3, contain: 0.55),
+    var warehouse = [Beer(beerName: "Black Beer", strength: "4.3–5.6% об.", price: 6.0, madeIn: "Germany", remainder: 51.3, contain: 0.55),
                              Beer(beerName: "White Beer", strength: "4.6%", price: 11.0, madeIn: "Belarus", remainder: 40, contain: 0.44)]
+    
     
     func smm (_ name: String) -> Double {
         if let sm = warehouse.first(where: { $0.beerName == name }) {
