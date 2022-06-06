@@ -33,6 +33,7 @@ class saleManagerSingltone {
     
     private init () {}
     
+
     var warehouse = [Beer(beerName: "Black Beer", strength: "4.3–5.6% об.", price: 6.0, madeIn: "Germany", remainder: 51.3, contain: 0.55),
                              Beer(beerName: "White Beer", strength: "4.6%", price: 11.0, madeIn: "Belarus", remainder: 40, contain: 0.44)]
     
@@ -63,6 +64,9 @@ class saleManagerSingltone {
         return salePriceDay
     }
     
-
+    func appBeer(beerName: String, strength: String, price: Double, madeIn: String, remainder: Double, contain: Double) -> Any {
+        warehouse.append(contentsOf: [Beer(beerName: beerName, strength: strength, price: price, madeIn: madeIn, remainder: remainder, contain: contain)])
+        return warehouse
+    }
 }
     
