@@ -64,9 +64,9 @@ class saleManagerSingltone {
         return salePriceDay
     }
     
-    func appBeer(beerName: String, strength: String, price: Double, madeIn: String, remainder: Double, contain: Double) -> Any {
+    func appBeer(beerName: String, strength: String, price: Double, madeIn: String, remainder: Double, contain: Double) {
         warehouse.append(contentsOf: [Beer(beerName: beerName, strength: strength, price: price, madeIn: madeIn, remainder: remainder, contain: contain)])
-        return warehouse
+        
     }
 }
     

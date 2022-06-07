@@ -23,9 +23,9 @@ class ViewController: UIViewController {
     
     let beer1 = Beer(beerName: "Kolko", strength: "7.2$", price: 5.60, madeIn: "Chine", remainder: 60.2, contain: 0.88)
 
-    let appber: (Any) = saleManagerSingltone.saleBeer.warehouse.append(contentsOf: [Beer(beerName: "Kolko beer", strength: "7.2$", price: 5.60, madeIn: "Chine", remainder: 60.2, contain: 0.88)])
+    let appber: () = saleManagerSingltone.saleBeer.warehouse.append(contentsOf: [Beer(beerName: "Kolko beer", strength: "7.2$", price: 5.60, madeIn: "Chine", remainder: 60.2, contain: 0.88)])
     
-    let appBeerFunc = saleManagerSingltone.saleBeer.appBeer(beerName: "Wilo Beer", strength: "4.5 %", price: 5.6, madeIn: "Belgia", remainder: 68, contain: 0.87)
+    let appBeerFunc: () = saleManagerSingltone.saleBeer.appBeer(beerName: "Wilo Beer", strength: "4.5 %", price: 5.6, madeIn: "Belgia", remainder: 68, contain: 0.87)
     
     override func viewDidLoad() {
         super.viewDidLoad()
